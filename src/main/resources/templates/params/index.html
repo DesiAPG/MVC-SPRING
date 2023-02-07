@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send params from http PUT</title>
+</head>
+<body>
+<ul>
+    <li>
+        <a th:href="@{/params/watch(text='Hello Duvan')}">Click Here!?text=Hello Duvan</a>
+    </li>
+    <li>
+        <a th:href="@{/params/watch(text='Whats Up')}">Click Here!?text=What's Up Duvan</a>
+    </li>
+    <li>
+        <a th:href="@{/params/mix-params(wave='Whats Up Duvan',number=21)}">Click Here!?text=What's Up Duvan and age</a>
+    </li>
+</ul>
+</body>
+</html>
