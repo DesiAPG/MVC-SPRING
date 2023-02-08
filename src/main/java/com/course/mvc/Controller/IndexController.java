@@ -54,7 +54,7 @@ public class IndexController {
                 new User("juan", "camacho", "juan@email.com"),
                 new User("Joan", "sarmiento", "joan@email.com"),
                 new User("jose", "marin", "jose@email.com"),
-                new User("julio", "cardona", "julio@email.com"));
+                new User("Julio", "cardona", "julio@email.com"));
         return users;
     }
 }
